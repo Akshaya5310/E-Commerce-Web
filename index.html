@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RedStore | Ecommerce website</title>
     <link rel="Stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
@@ -373,15 +374,17 @@
 
     <!-- -------------------js for toggle menu-------------- -->
     <script>
-        var MenuItems = document.getElementById("MenuItem");
+        var MenuItems = document.getElementById("MenuItems");
 
         MenuItems.style.maxHeight = "0px";
 
         function menutoggle() {
-            if (MenuItems.style.maxHeight == "0px") {
+            if (MenuItems.style.maxHeight == "0px")
+            {
                 MenuItems.style.maxHeight = "200px";
             }
-            else {
+            else 
+            {
                 MenuItems.style.maxHeight = "0px";
             }
         }
